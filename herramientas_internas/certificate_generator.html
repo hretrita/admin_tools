@@ -4,54 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../herramientas_internas/style/style_hash_generator.css">
+    <link rel="stylesheet" href="../herramientas_internas/style/certificate_generator.css">
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
-
-
 </head>
 <body>
     <div class="title-container">
         <div class="logo-container">
             <img class="logo" src="../herramientas_internas/assets/logo.png" alt="cernex_logo">
         </div>
-        <h1 class="title">HASH GENERATOR</h1>
+        <h1 class="title">CERTIFICATE GENERATOR</h1>
     </div>
 
-    <div class="input-section">
-        <div class="column">
-            <div class="input-group">
-                <label class="input-label">Customer name</label>
-                <div class="input-container">
-                    <input type="text" class="input-field" placeholder="Enter information">
-                </div>
-            </div>
-            <div class="input-group">
-                <label class="input-label">Customer second surname</label>
-                <div class="input-container">
-                    <input type="text" class="input-field" placeholder="Enter information">
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <div class="input-group">
-                <label class="input-label">Customer first surname</label>
-                <div class="input-container">
-                    <input type="text" class="input-field" placeholder="Enter information">
-                </div>
-            </div>
-            <div class="input-group">
-                <label class="input-label">Customer email</label>
-                <div class="input-container">
-                    <input type="text" class="input-field" placeholder="Enter information">
-                </div>
-            </div>
+    <div class="input-text-box">
+        <div class="input-container">
+            <label class="input-label-hash">Customer Hash</label>
+            <input type="text" class="input-field" placeholder="Enter information">
         </div>
     </div>
 
     <div class="input-section">
         <div class="column">
             <div class="input-group">
-                <label class="input-label">Product Serial Number</label>
+                <label class="input-label">Order Number</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" placeholder="Enter information">
+                </div>
+            </div>
+            <div class="input-group">
+                <label class="input-label">Warranty Details</label>
                 <div class="input-container">
                     <input type="text" class="input-field" placeholder="Enter information">
                 </div>
@@ -59,7 +39,13 @@
         </div>
         <div class="column">
             <div class="input-group">
-                <label class="input-label">Wallet Address</label>
+                <label class="input-label">Brand and Model</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" placeholder="Enter information">
+                </div>
+            </div>
+            <div class="input-group">
+                <label class="input-label">Serial Number</label>
                 <div class="input-container">
                     <input type="text" class="input-field" placeholder="Enter information">
                 </div>
@@ -67,18 +53,33 @@
         </div>
     </div>
 
+    <div class="input-section">
+        <div class="column">
+            <div class="input-group">
+                <label class="input-label">Main Characteristic</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" placeholder="Enter information">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="input-group">
+                <label class="input-label">Date of Purchase</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" placeholder="Enter information">
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="random-number-section">
-        <button id="generate-button" class="custom-button">Generate Number</button>
-        <div class="random-number-box">
-            <span class="generated_number" id="generated-number"></span>
-        </div>
-        <button id="copy-button" class="copy-button">Copy</button>
+        <button id="generate-button" class="custom-button">Generate</button>
     </div>
 
     <div class="back-button-container">
         <a href="index.html" class="back-button">Back</a>
     </div>
 
-    <script src="../herramientas_internas/script/script_hash_generator.js"></script>
+    <script src=""></script>
 </body>
 </html>
